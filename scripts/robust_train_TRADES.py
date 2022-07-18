@@ -332,7 +332,7 @@ class TrainRobustClassifier:
         # Loss Functions
         criterion, criterion_nored = self.loss_function()
 
-        # Getting the optimizer and scheduler
+        # Getting the optimizer
         optimizer = self.optimizer(model)
 
         if self.configdata['dss_strategy']['type'] == 'GradMatch':
@@ -1085,8 +1085,8 @@ class TrainRobustClassifier:
 
         self.bud = 1000
 
-        # Getting the optimizer and scheduler
-        optimizer, scheduler = self.optimizer_with_scheduler(model)
+        # Getting the optimizer
+        optimizer = self.optimizer(model)
 
         checkpoint_dir  = osp.abspath(osp.expanduser(self.configdata['ckpt']['dir']))
         ckpt_dir        = os.path.join(checkpoint_dir,self.configdata['dss_strategy']['type'], self.configdata['dataset']['name'], str(self.configdata['dss_strategy']['fraction']), str(self.configdata['dss_strategy']['select_every']))
