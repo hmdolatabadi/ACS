@@ -26,11 +26,11 @@ pip install -r requirements.txt
 | Path | Description
 | :--- | :----------
 | master | The main folder containing the repository.
-| &ensp;&ensp;&boxvr;&nbsp; [configs]() | Config files containing the settings.
-| &ensp;&ensp;&boxvr;&nbsp; [cords]() | Coreset selection modules.
-| &ensp;&ensp;&boxvr;&nbsp; [misc]() | Miscellaneous files.
-| &ensp;&ensp;&boxvr;&nbsp; [perceptual_advex]() | Perceptual adversarial training modules.
-| &ensp;&ensp;&boxur;&nbsp; [scripts]() | Training scripts for different adversarial training objectives.
+| &ensp;&ensp;&boxvr;&nbsp; [configs](https://github.com/hmdolatabadi/ACS/tree/main/configs) | Config files containing the settings.
+| &ensp;&ensp;&boxvr;&nbsp; [cords](https://github.com/hmdolatabadi/ACS/tree/main/cords) | Coreset selection modules.
+| &ensp;&ensp;&boxvr;&nbsp; [misc](https://github.com/hmdolatabadi/ACS/tree/main/misc) | Miscellaneous files.
+| &ensp;&ensp;&boxvr;&nbsp; [perceptual_advex](https://github.com/hmdolatabadi/ACS/tree/main/perceptual_advex) | Perceptual adversarial training modules.
+| &ensp;&ensp;&boxur;&nbsp; [scripts](https://github.com/hmdolatabadi/ACS/tree/main/scripts) | Training scripts for different adversarial training objectives.
 | &ensp;&ensp;&ensp;&ensp;&boxvr;&nbsp; robust_train_FPAT.py | Perceptual adversarial training (CIFAR-10 and ImageNet-12).
 | &ensp;&ensp;&ensp;&ensp;&boxvr;&nbsp; robust_train_l2.py | $\ell_2$-PGD adversarial training (SVHN).
 | &ensp;&ensp;&ensp;&ensp;&boxvr;&nbsp; robust_train_linf.py | $\ell_\infty$-PGD adversarial training (CIFAR-10).
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ## Efficient Adversarial Training with Coreset Selection
 
-To train a robust neural network using coreset selection, first, decide the training objective (here, we provide the code for $\ell_2$ and $\ell_\infty$-PGD, Perceptual and TRADES adversarial training). Once decided, different versions of coreset selection can be used to enable fast, robust learning. In this repository, we provide support for different variants of [CRAIG]() and [GradMatch]() as in the [official cords repository](). Namely, we provide the **ADVERSARIAL** versions of the following coreset selection methods:
+To train a robust neural network using coreset selection, first, decide the training objective (here, we provide the code for $\ell_2$ and $\ell_\infty$-PGD, Perceptual and TRADES adversarial training). Once decided, different versions of coreset selection can be used to enable fast, robust learning. In this repository, we provide support for different variants of [CRAIG](https://arxiv.org/abs/2103.00123) and [GradMatch](https://arxiv.org/abs/2103.00123) as in the [official cords repository](https://github.com/decile-team/cords). Namely, we provide the **ADVERSARIAL** versions of the following coreset selection methods:
 
 | Command | Method Description
 | :--- | :----------
