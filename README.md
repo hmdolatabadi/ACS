@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ## Efficient Adversarial Training with Coreset Selection
 
-To train a robust neural network using coreset selection, first, decide the training objective (here, we provide the code for $\ell_2$ and $\ell_\infty$-PGD, Perceptual and TRADES adversarial training). Once decided, different versions of coreset selection can be used to enable fast, robust learning. In this repository, we provide support for different variants of [CRAIG](https://arxiv.org/abs/2103.00123) and [GradMatch](https://arxiv.org/abs/2103.00123) as in the [official cords repository](https://github.com/decile-team/cords). Namely, we provide the **ADVERSARIAL** versions of the following coreset selection methods:
+To train a robust neural network using coreset selection, first, decide the training objective (here, we provide the code for $\ell_2$ and $\ell_\infty$-PGD, Perceptual and TRADES adversarial training). Once decided, different versions of coreset selection can be used to enable fast, robust learning. In this repository, we provide support for different variants of [CRAIG](https://arxiv.org/abs/1906.01827) and [GradMatch](https://arxiv.org/abs/2103.00123) as in the [official cords repository](https://github.com/decile-team/cords). Namely, we provide the **ADVERSARIAL** versions of the following coreset selection methods:
 
 | Command | Method Description
 | :--- | :----------
