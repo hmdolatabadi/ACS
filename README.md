@@ -5,7 +5,7 @@
 [![arXiv](http://img.shields.io/badge/arXiv-2112.00378-B31B1B.svg)](https://arxiv.org/abs/2112.00378)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains the official implementation of the ECCV 2022 paper $\ell_\infty$-[_Robustness and Beyond: Unleashing Efficient Adversarial Training_](https://arxiv.org/abs/2112.00378).
+This repository contains the official implementation of the ECCV 2022 paper $\ell_\infty$-[_Robustness and Beyond: Unleashing Efficient Adversarial Training_](https://arxiv.org/abs/2112.00378). An extended version of our work has also been published in the International Journal of Computer Vision (IJCV) [Adversarial Coreset Selection for Efficient Robust Training](https://arxiv.org/abs/2209.05785).
 
 <p align="center">
   <img src="./misc/adversarial_coreset_selection.png" width="95%">
@@ -222,12 +222,19 @@ We thank the authors of these two repositories.
 
 ## Citation
 
-If you have found our code or paper beneficial to your research, please consider citing it as:
+If you have found our code or paper beneficial to your research, please consider citing them as:
 ```bash
 @inproceedings{dolatabadi2022unleashing,
   title={$\ell_\infty$-Robustness and Beyond: Unleashing Efficient Adversarial Training},
   author={Hadi Mohaghegh Dolatabadi and Sarah Erfani and Christopher Leckie},
   booktitle = {Proceedings of the European Conference on Computer Vision ({ECCV})},
   year={2022}
+}
+
+@article{dolatabadi2022adversarial,
+  title={Adversarial coreset selection for efficient robust training},
+  author={Hadi Mohaghegh Dolatabadi and Sarah Erfani and Christopher Leckie},
+  journal={International Journal of Computer Vision (IJCV)},
+  year={2023}
 }
 ```
