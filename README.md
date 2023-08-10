@@ -5,7 +5,7 @@
 [![arXiv](http://img.shields.io/badge/arXiv-2112.00378-B31B1B.svg)](https://arxiv.org/abs/2112.00378)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains the official implementation of the ECCV 2022 paper $\ell_\infty$-[_Robustness and Beyond: Unleashing Efficient Adversarial Training_](https://arxiv.org/abs/2112.00378). An extended version of our work has also been published in the International Journal of Computer Vision (IJCV) [Adversarial Coreset Selection for Efficient Robust Training](https://arxiv.org/abs/2209.05785).
+This repository contains the official implementation of the ECCV 2022 paper $\ell_\infty$-[_Robustness and Beyond: Unleashing Efficient Adversarial Training_](https://arxiv.org/abs/2112.00378). An extended version of our work has also been published in IJCV, entitled [Adversarial Coreset Selection for Efficient Robust Training](https://arxiv.org/abs/2209.05785).
 
 <p align="center">
   <img src="./misc/adversarial_coreset_selection.png" width="95%">
